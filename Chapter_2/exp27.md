@@ -1,0 +1,1 @@
+No, you cannot definitively determine if a pointer `p` points to a valid object solely by inspecting `p`.      

@@ -52,7 +52,7 @@ int *p1 = &i;
 `exp15.cpp -`  We indicate each pointer level by its own *.        
 `exp16.md - `  `Exercise 2.1` What are the differences between int, long, long long, and short? Between an unsigned and a signed type? Between a float and a double?        
 `exp17.md - `  `Exercise 2.2` To calculate a mortgage payment, what types would you use for the rate, principal, and payment? Explain why you selected each type.        
-`exp18.md - `  `Exercise 2.5` Determine the type of each of the following literals. Explain the differences among the literals in each of the four examples:       
+`exp18.md - `  `Exercise 2.5` Determine the type of each of the following literals. Explain the differences among the literals in each of the four examples:       
 (a) ’a’, L’a’, "a", L"a"        
 (b) 10, 10u, 10L, 10uL, 012, 0xC       
 (c) 3.14, 3.14f, 3.14L       
@@ -78,7 +78,7 @@ int month = 09, day = 07;
 int i = 0, &r1 = i; double d = 0, &r2 = d;        
 (a) r2 = 3.14159; (b) r2 = r1;        
 (c) i = r2; (d) r1 = d;          
-`exp25.md -`  `Exercise 2.21` Explain each of the following definitions. Indicate whether any are illegal and, if so, why.       
+`exp25.md -`  `Exercise 2.21` Explain each of the following definitions. Indicate whether any are illegal and, if so, why.       
 int i = 0;         
 (a) double* dp = &i; (b) int *ip = i; (c) int *p = &i;        
 `exp26.md -`  `Exercise 2.22` Assuming p is a pointer to int, explain the following code:          
@@ -101,7 +101,7 @@ int i = 42; void *p = &i; long *lp = &i;
 (a) int i, *const cp; (b) int *p1, *const p2;        
 (c) const int ic, &r = ic; (d) const int *const p3;       
 (e) const int *p;        
-`exp33.md -`  `Exercise 2.29` Uing the variables in the previous exercise, which of the following assignments are legal? Explain why.     
+`exp33.md -`  `Exercise 2.29` Uing the variables in the previous exercise, which of the following assignments are legal? Explain why.     
 (a) i = ic; (b) p1 = p3;        
 (c) p1 = &ic; (d) p3 = &ic;      
 (e) p2 = p1; (f) ic = *p3;         
@@ -115,7 +115,7 @@ p1 = p2; p2 = p1;
 p1 = p3; p2 = p3;       
 `exp36.md -`  `Exercise 2.32` Is the following code legal or not? If not, how might you make it legal?        
 int null = 0, *p = null;       
-`exp37.md -`  `Exercise 2.33` Using the variable definitions from this section, determine what happens in each of these assignments:        
+`exp37.md -`  `Exercise 2.33` Using the variable definitions from this section, determine what happens in each of these assignments:        
 a = 42; b = 42; c = 42;         
 d = 42; e = 42; g = 42;        
 `exp38.md -`  `Exercise 2.35` Determine the types deduced in each of the following definitions. Once you’ve figured out the types, write a program to see whether you were correct.       
@@ -140,7 +140,5 @@ int main()
 return 0;      
 }       
 `exp43.md -`  `Exercise 2.40` Write your own version of the Sales_data class.          
-`exp44.md -`  `Exercise 2.41` Use your Sales_data class to rewrite the exercises in § 1.5.1 (p. 22), § 1.5.2 (p. 24), and § 1.6 (p. 25). For now, you should define your Sales_data class in the same file as your main function.         
-`exp45.md -`  `Exercise 2.42` Write your own version of the Sales_data.h header and use it to rewrite the exercise from § 2.6.2 (p. 76)       
 
 
